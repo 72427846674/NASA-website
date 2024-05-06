@@ -1,0 +1,82 @@
+
+/*the main topic feature*/
+.information {
+    padding: 3% 7.5%;
+    color: white;
+    font-size: larger;
+    font-family: "montserrat";
+}
+ 
+/*This is the extra topic by the name of about*/
+.about-feature {
+    text-align: center;
+    padding: 3% 7.5%;
+    color: white;
+    font-size: larger;
+    font-family: "montserrat";
+}
+
+/*services, portfolio, prices, main paragraph and our team*/
+.container {
+    padding: 8%;
+    text-align: center;
+    color: azure;
+    font-size: larger;
+}
+
+.slider-feature {
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+/*each boxes*/
+.card {
+    box-shadow: 5px 10px 20px white;
+}
+
+.card-feature {
+    transition-duration: 2s;
+    transition-property: opacity;
+}
+
+.card-feature:hover {
+    transform: scale(0.9);
+}
+
+.header, h1, h3 {
+    text-align: center;
+}
+
+
+.nav-feature {
+    color: azure;
+    text-align: center;
+    height: 20vh;
+    padding: 3%;
+}
+
+.quote {
+    opacity: 30%;
+}
+
+.form-feature .box-feature {
+    width: 100%;
+    margin-bottom: 1%;
+    transition-duration: 2s;
+    transition-property: width, background-color;
+}
+
+.box-feature:hover {
+    width: 95%;
+    background-color: blanchedalmond;
+}
+
+.form-section {
+    padding: 3%;
+    color: white;
+}
+
+.gmap_canvas {
+    padding: 3%;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sahar Timori">
+    <meta name="about" content="NASA company">
+    <title>about us</title>
+    <link href="style.css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="images/favicon .ico" rel="icon">
+    <link href="style.css/smallscreen.css" rel="stylesheet" media="screen and (max-width: 765px)">
+    <link href="style.css/widescreen.css" rel="stylesheet" media="screen and (max-width: 991px)">
+
+    <style>
+        body {
+          background-image: url(images/nasaa.png);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+      </style>
+</head>
+<body>
+    <header>
+
+        <!--Navbar on the top-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="60" height="50.58" alt="NASA Logo" src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="services.html">Services</a>
+                  <a class="nav-link" aria-disabled="true" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <!--main paragraph-->
+     <div class="container">
+        <h1>About us</h1>
+        <p>Welcome to our company’s page. Learn more about who we are and what we do.</p>
+     </div>
+     
+     <!--NASA testimonials that appears as a slideshow-->
+    <section class="slider-feature bg-dark">
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <h1 style="color: white; padding: 3%;">Testimonials</h1>
+            <div class="carousel-item active about-carousel">
+              <p>Simply stated, at NASA we value the great fit with OotM,<br>
+                 since devising unique solutions to complex problems are central components to each organization.</p>
+              <p class="quote">~ Dr. Michael King, Earth Sciences Directorate</p>
+            </div>
+            <div class="carousel-item about-carousel">
+                <p>Space Grant teaches the valuable link between the theory taught in classes to<br>
+                     the practical needed for real life success.</p>
+                 <p class="quote">~ Sen. Bill Nelson</p>
+            </div>
+            <div class="carousel-item about-carousel">
+                <p>Awesome program! I am able to commission with the United States Air Force<br>
+                     because of the work I did while in Space Grant.</p>
+                 <p class="quote">~ Col. (USAF, ret) Pam Melroy</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+      </section>
+           
+      <!--This section is about our team-->
+      <div class="container">
+        <h1>Our Team</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/Bill Nelson.webp" alt="project-pic" width="40%" height="80%" class="rounded-circle">
+                <h3>Bill Nelson</h3>
+                <p>Administrator</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/Pam Melroy.jpg" alt="project-pic" width="40%" height="80%" class="rounded-circle">
+                <h3>Pam Melroy</h3>
+                <p>Administrator</p>
+            </div>
+        </div>
+
+      </div>
+
+      <footer>
+        <nav class="nav-feature bg-dark">
+           <p> &#169; 2024 NASA company. All rights reserved</p>
+           <address>Contact us: info@NASA.com | 123-456-7659</address>
+        </nav>
+      </footer>
+</body>
+</html>
